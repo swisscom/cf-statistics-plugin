@@ -1,0 +1,41 @@
+{
+	"ImportPath": "github.com/swisscom/cf-statistics-plugin",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry/cli/cf/configuration",
+			"Comment": "v6.11.2-34-g4cb5aa0",
+			"Rev": "4cb5aa08fb38826946dfdb5469868a21f6603db6"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/cli/cf/models",
+			"Comment": "v6.11.2-34-g4cb5aa0",
+			"Rev": "4cb5aa08fb38826946dfdb5469868a21f6603db6"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/cli/plugin",
+			"Comment": "v6.11.2-34-g4cb5aa0",
+			"Rev": "4cb5aa08fb38826946dfdb5469868a21f6603db6"
+		},
+		{
+			"ImportPath": "github.com/gizak/termui",
+			"Rev": "9d0302382ddeed86cbedb11049dcab10f8131d15"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-runewidth",
+			"Comment": "travisish-31-g58a0da4",
+			"Rev": "58a0da4ed7b321c9b5dfeffb7e03ee188fae1c60"
+		},
+		{
+			"ImportPath": "github.com/nsf/termbox-go",
+			"Rev": "bc836fdbcf75184c95c96500ea740e3dd727b5a8"
+		},
+		{
+			"ImportPath": "github.com/pivotal-golang/bytefmt",
+			"Rev": "eb6a478daea5cd564c230719240761a1a2ccc713"
+		}
+	]
+}
